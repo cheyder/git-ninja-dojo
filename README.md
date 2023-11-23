@@ -1,0 +1,13 @@
+# Git Ninja Dojo
+
+Willkommen im Git Ninja Dojo!
+
+Dies ist ein Ort, an dem wir fortgeschrittene Fertigkeiten für die Versionierung mit Git sammeln, verbreiten und trainieren.
+
+Für alle, die sich eine Git History mit wenig Noise und dafür gehaltvollen Informationen wünschen. Für alle, die aus der Git History gerne die fachlichen und technischen Gründe für die Entstehung einer Codestelle rauslesen würden. Für alle, die große PRs gerne in kleinen, sinnvollen, zusammenhängenden Einheiten durchsehen möchten.
+
+Das Dojo besteht aus einem Ehrenkodex, der alle Konventionen zu [Commits](./code_of_honour/10_commits.md), [Commit Messages](./code_of_honour/20_commit_messages.md) und [Branching](./code_of_honour/30_branching.md) enthält. Lies und versteh ihn, bevor du die Techniken dazu verwendest. 
+
+Die Techniken sind unterteilt in [Verstehen](./techniques/10_understand.md), [Umstrukturieren](./techniques/20_rearrange.md) und [Wiederherstellen](./techniques/30_reset.md) und in der Art von Cheat Sheets für das schnelle Nachschauen zusammengefasst. 
+
+Im Training kann all das auf Übungsbranches einzeln ausprobiert werden.

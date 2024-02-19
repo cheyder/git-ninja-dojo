@@ -1,6 +1,6 @@
-# Git Ninja Dojo
+# Git Dojo
 
-Willkommen im Git Ninja Dojo!
+Willkommen im Git Dojo!
 
 Dies ist ein Ort, an dem wir fortgeschrittene Fertigkeiten für die Versionierung mit Git sammeln, verbreiten und trainieren.
 

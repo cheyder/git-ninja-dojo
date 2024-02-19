@@ -12,4 +12,6 @@ Das Dojo besteht aus einem Ehrenkodex, der alle Konventionen zu [Commits](./code
 
 Die Techniken sind unterteilt in [Verstehen](./techniques/10_understand.md), [Umstrukturieren](./techniques/20_rearrange.md) und [Wiederherstellen](./techniques/30_reset.md) und in der Art von Cheat Sheets für das schnelle Nachschauen zusammengefasst. 
 
-Im Training kann all das auf Übungsbranches einzeln ausprobiert werden.
+## Backlog
+
+- [ ] einen Übungsbereich erstellen, in dem die Techniken auf vorbereiteten Branches ausprobiert werden können

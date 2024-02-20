@@ -1,0 +1,8 @@
+# Wiederherstellen
+
+| Command                      |                                                                                                             |                                                                                                                                    |
+|------------------------------|-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| `git reflog`                 |                                                                                                             | Der Blick ins Git des Git                                                                                                          |
+| `git reset --soft <Commit>`  | Setze <aktueller Branch> auf <Commit>, ändere Index und Working Tree nicht                                  | Gehe zurück, belasse alles, was bis dahin gestaged oder commited wurde in der Staging Area und ändere das Arbeitsverzeichnis nicht |
+| `git reset --mixed <Commit>` | Setze <aktueller Branch> auf <Commit>, setze Index auf den Stand von <Commit> und ändere Working Tree nicht | Unstage alles bis <Commit>, aber behalte alle Änderungen im Arbeitsverzeichnis                                                     |
+| `git reset --hard <Commit>`  | Setze <aktueller Branch> auf <Commit>, setze Index und Working Tree auf den Stand von <Commit>              | Verwerfe alle Änderungen bis <Commit>                                                                                              |

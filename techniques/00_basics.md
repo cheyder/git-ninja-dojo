@@ -2,6 +2,20 @@
 
 Um Git über `pull`, `branch`, `commit`, `push` hinaus zu verwenden ist es sehr hilfreich, sich mit ein paar Grundkonzepten und Begriffen vertraut zu machen. Sie werden hier eingeführt und dann im Folgenden ohne weitere Erklärung verwendet.
 
+## States 
+Stagen und Committen sind wahrscheinlich mit die häufigsten Dinge, die mit Git gemacht werden. Hier nochmal eine kurze Zusammenfassung der Begriffe. Beachte, dass für unterschiedliche Bereiche verschiedene, gleichbedeutende Begriffe verwendet werden.
+
+| Working Directory / Working Tree                                   | Staging Area / Index                                             | `.git/` directory                                          |
+|--------------------------------------------------------------------|------------------------------------------------------------------|----------------------------------------------------------|
+| alle von Git getrackten Dateien, bearbeitet oder noch unbearbeitet | bearbeitete Dateien, die für den nächsten Commit vorgemerkt sind | speichert den aktuellen Zustand des Projekts |
+ 
+
+| von               | Command          | nach                 |
+|-------------------|------------------|----------------------|
+| Working Directory | `git add <file>` | Staging Area / Index |
+| Staging Area      | `git commit`     | Git Directory        |
+
+
 ## Commits, Branches und weitere Pointer
 
 Eine Version in Git, ist ein Snapshot des versionierten Verzeichnisses.
